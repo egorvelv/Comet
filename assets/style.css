@@ -29,15 +29,14 @@ a {
 .comet__tail {
 	position: absolute;
 	background: linear-gradient(#32527a, #72b1fd, #72b1fd, #72b1fd);
-	top: 0;
 	left: 0;
-	bottom: 0;
 	right: 0;
+	height: 80%;
 }
 
 .comet__body {
 	position: absolute;
-	bottom: -110px;
+	bottom: 25px;
 	background-color: #72b1fd;
 	border-radius: 50%;
 	width: 220px;
@@ -204,6 +203,7 @@ a {
 }
 
 .core__tail.-blue {
+	height: 250px;
 	width: 17px;
 	background-color: #72b1fd;
 	right: 0;
